@@ -1,0 +1,24 @@
+{
+  "iOS" : [
+    {
+      "hash" : "ef447a405cf76847f00b836184317c8b93beae5373c8e904c719a9c4671ff058",
+      "name" : "Hue"
+    }
+  ],
+  "commitish" : "b0714f1b2a3d8d9e306eef4b8d86a2547baff556",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "hash" : "3c32bd12a7fd1b2d0588b76d3185755bc70458d5e47aa350fe014b7bfb146b22",
+      "name" : "Hue"
+    }
+  ],
+  "Mac" : [
+    {
+      "hash" : "fe21c0ca6454a42c4d64723f27cb146ee6023a0abeaf5632b296d8b757306f76",
+      "name" : "Hue"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "iOS" : [
+    {
+      "hash" : "6ae81f0095c785c93b04f2eacc542880f5be26170b068e9209949d5e63f3a3c5",
+      "name" : "Lightbox"
+    }
+  ],
+  "commitish" : "1.0.0",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "Mac" : [
+
+  ]
+}

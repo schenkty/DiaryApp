@@ -1,0 +1,18 @@
+{
+  "iOS" : [
+    {
+      "hash" : "b62c4efaf36b346ebb1a6c2036f977af9419fb2a9ab293a7fc734bcd440c8b37",
+      "name" : "AAImagePicker"
+    }
+  ],
+  "commitish" : "da9b208ccd6714e7779485068eb323fbc1133490",
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "Mac" : [
+
+  ]
+}
