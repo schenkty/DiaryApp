@@ -113,15 +113,18 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Diaries" id="S1V-1v-eiO">
-                        <barButtonItem key="rightBarButtonItem" image="icn_write_post" id="HFy-56-r4s">
-                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                            <connections>
-                                <segue destination="moM-N9-nah" kind="show" identifier="newItem" id="AwO-uo-tSa"/>
-                            </connections>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="tZd-43-sOn" userLabel="Add Button">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3Ex-Mc-ack">
+                                <rect key="frame" x="318" y="7" width="41" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Icn_write"/>
+                                <connections>
+                                    <segue destination="moM-N9-nah" kind="show" identifier="newItem" id="mTB-hf-RLd"/>
+                                </connections>
+                            </button>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="addButton" destination="HFy-56-r4s" id="g9X-lB-19S"/>
                         <outlet property="listNavBar" destination="S1V-1v-eiO" id="xlQ-Ia-sSU"/>
                     </connections>
                 </tableViewController>
@@ -602,13 +605,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Icn_write" width="41" height="29"/>
         <image name="icn_average_lrg" width="14" height="14"/>
         <image name="icn_bad_lrg" width="15" height="15"/>
         <image name="icn_geolocate" width="17" height="17"/>
         <image name="icn_good_lrg" width="15" height="15"/>
         <image name="icn_noimage" width="47" height="47"/>
         <image name="icn_picture" width="24" height="24"/>
-        <image name="icn_write_post" width="12" height="12"/>
         <image name="lock_open" width="24" height="24"/>
     </resources>
 </document>
